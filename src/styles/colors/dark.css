@@ -2,5 +2,5 @@
   color-scheme: dark;
 
   --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+  --color-secondary: var(--color-off-white);
 }
