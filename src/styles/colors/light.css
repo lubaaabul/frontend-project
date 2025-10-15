@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
+  --color-primary: var(--color-off-white);
   --color-secondary: var(--color-black);
 }
