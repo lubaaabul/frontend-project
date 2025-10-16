@@ -7,12 +7,6 @@
   padding-bottom: 20px;
 }
 
-.header__nav {
-  
-  /* padding-top: 0.7%; */
-  /* padding-bottom: 0.7%; */
-}
-
 .header__nav-list {
   display: flex;
   flex-direction: row;
