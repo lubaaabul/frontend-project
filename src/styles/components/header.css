@@ -14,3 +14,7 @@
   align-items: center;
   gap: 50px;
 }
+
+.header__menu-btn {
+  margin-left: 30px;
+}
