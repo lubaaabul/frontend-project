@@ -3,4 +3,15 @@
 
   --color-primary: var(--color-black);
   --color-secondary: var(--color-off-white);
+  
+    /* Background group */
+  --background-default: var(--color-dark-cyan);
+  --background-secondary: var(--color-background-alpha-15);
+  --background-primary: var(--color-white);
+
+
+    /* Text group */
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-gray-muted);
+  --text-inverse: var(--color-dark-cyan);
 }
