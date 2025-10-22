@@ -9,7 +9,7 @@
   --background-secondary: var(--color-light-gray);
   --background-primary: var(--color-dark-cyan);
 
-    /* Text group */
+  /* Text group */
   --text-primary: var(--color-dark-cyan);
   --text-secondary: var(--color-gray);
   --text-inverse: var(--color-white);
