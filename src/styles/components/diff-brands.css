@@ -1,0 +1,58 @@
+.diff-brands {
+  color: var(--text-primary);
+}
+
+.diff-brands__title {
+  text-align: center;
+  line-height: 100%;
+  font-size: 32px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  /* letter-spacing: 0%; */
+}
+
+.diff-brands__list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.diff-brands__item {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.diff-brands__ico {
+  margin-bottom: 16px;
+}
+
+.diff-brands__head {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.diff-brands__descr {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (--sm-viewport) {
+  .diff-brands__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (--lg-viewport) {
+  .diff-brands__list {
+    margin-top: 60px;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (--xl-viewport) {
+  .diff-brands__list {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}

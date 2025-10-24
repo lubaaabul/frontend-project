@@ -10,7 +10,7 @@
   --background-primary: var(--color-dark-cyan);
 
   /* Text group */
-  --text-primary: var(--color-dark-cyan);
+  --text-primary: var(--color-muted-teal);
   --text-secondary: var(--color-gray);
   --text-inverse: var(--color-white);
 
