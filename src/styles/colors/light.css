@@ -15,9 +15,9 @@
   --text-inverse: var(--color-white);
 
   /* Primary accents */
-  --primary-default: var(--color-dark-blue);
-  --primary-hover: var(--color-dark-sapphire);
-  --primary-light-hover: var(--color-light-sapphire);
+  --primary-default: var(--color-dark-cyan);
+  --primary-hover: var(--color-gray);
+  --primary-light-hover: var(--color-gray-medium);
 
   /* Остальное */
   --secondary-hover: var(--color-gray-medium);
