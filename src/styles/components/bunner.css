@@ -9,15 +9,19 @@
 }
 
 .bunner__head {
-  padding: 20px;
+  padding-bottom: 20px;
   font-size: 56px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   line-height: 100%;
   color: var(--text-inverse);
 }
 
 .bunner__footer {
-  padding: 20px;
+  padding-bottom: 40px;
   font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
   line-height: 150%;
   color: var(--text-inverse);
 }
