@@ -11,7 +11,7 @@
 .bunner__head {
   padding-bottom: 20px;
   font-size: 56px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   line-height: 100%;
   color: var(--text-inverse);
