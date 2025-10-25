@@ -3,4 +3,23 @@
 
   --color-primary: var(--color-off-white);
   --color-secondary: var(--color-black);
+
+  /* Background group */
+  --background-default: var(--color-white);
+  --background-secondary: var(--color-light-gray);
+  --background-primary: var(--color-dark-cyan);
+
+  /* Text group */
+  --text-primary: var(--color-muted-teal);
+  --text-secondary: var(--color-charcoal);
+  --text-inverse: var(--color-white);
+
+  /* Primary accents */
+  --primary-default: var(--color-dark-cyan);
+  --primary-hover: var(--color-gray);
+  --primary-light-hover: var(--color-gray-medium);
+
+  /* Остальное */
+  --secondary-hover: var(--color-gray-medium);
+  --background-interior: var(--color-light-mint);
 }
