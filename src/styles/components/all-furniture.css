@@ -1,0 +1,117 @@
+.all-furniture__title {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.all-furniture__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 80px;
+}
+
+.all-furniture__tab {
+  color: var(--color-gray-text);
+}
+
+.all-furniture__tab.active {
+  color: var(--color-deep-teal);
+}
+
+.all-furniture__tab.active::after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 35%;
+  height: 3px;
+  background-color: var(--color-deep-teal);
+  margin: 6px auto 0;
+  left: auto;
+  transform: none;
+}
+
+.all-furniture__content {
+  display: none;
+}
+
+.all-furniture__content.active {
+  display: block;
+}
+
+.all-furniture__content-layout {
+  display: flex;
+  align-items: center;
+  gap: 135px;
+}
+
+.all-furniture__image-section {
+  flex: 0 0 auto;
+  padding: 10px 13px;
+}
+
+.all-furniture__image-wrapper {
+  position: relative;
+}
+
+.all-furniture__image {
+  width: 552px;
+  height: 389px;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.all-furniture__decor {
+  position: absolute;
+  width: 190px;
+  height: 85px;
+  background-color: var(--color-deep-teal);
+  z-index: 1;
+}
+
+.all-furniture__decor--top-left {
+  top: -10px;
+  left: -13px;
+}
+
+.all-furniture__decor--bottom-right {
+  bottom: -13px;
+  right: -10px;
+}
+
+.all-furniture__categories-section {
+  flex: 1;
+}
+
+.all-furniture__categories-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.all-furniture__category-column {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.all-furniture__category-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 65px;
+  background-color: transparent;
+  border: 1.5px solid var(--color-btn-line);
+  transition: all 0.3s ease;
+  color: var(--color-gray-text);
+}
+
+.all-furniture__category-btn:hover {
+  background-color: var(--color-deep-teal);
+  border-color: var(--color-deep-teal);
+  color: var(--color-white);
+}
+
+.all-furniture__category-btn:hover .all-furniture__category-icon {
+  filter: brightness(0) invert(1);
+}
