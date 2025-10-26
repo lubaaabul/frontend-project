@@ -153,9 +153,71 @@
               </div>
 
               <div class="all-furniture__tab-content">
-                <div class="all-furniture__content active" id="tab1">Содержимое вкладки 1</div>
-                <div class="all-furniture__content" id="tab2">Содержимое вкладки 2</div>
-                <div class="all-furniture__content" id="tab3">Содержимое вкладки 3</div>
+                <div class="all-furniture__content active" id="tab1">
+                  <div class="all-furniture__content-layout">
+                    <!--фото слева-->
+                    <div class="all-furniture__image-section">
+                      <div class="all-furniture__image-wrapper">
+                        <div class="all-furniture__decor all-furniture__decor--top-left"></div>
+                        <div class="all-furniture__decor all-furniture__decor--bottom-right"></div>
+                        <img src="/images/all-furniture-img.png" alt="Some Furniture" class="all-furniture__image" />
+                      </div>
+                    </div>
+                    <!--кнопки справа-->
+                    <div class="all-furniture__categories-section">
+                      <div class="all-furniture__categories-grid">
+                        <!-- первый столбец -->
+                        <div class="all-furniture__category-column">
+                          <button class="all-furniture__category-btn" data-category="living-room">
+                            <img
+                              src="/images/all-fur-living-room.svg"
+                              alt="Living Room"
+                              class="all-furniture__category-icon"
+                            />
+                            <span class="text-btn">Living Room</span>
+                          </button>
+
+                          <button class="all-furniture__category-btn" data-category="kitchen">
+                            <img src="/images/all-fur-kitchen.svg" alt="Kitchen" class="all-furniture__category-icon" />
+                            <span class="text-btn">Kitchen</span>
+                          </button>
+
+                          <button class="all-furniture__category-btn" data-category="dining-room">
+                            <img
+                              src="/images/all-fur-dining-room.svg"
+                              alt="Dining Room"
+                              class="all-furniture__category-icon"
+                            />
+                            <span class="text-btn">Dining Room</span>
+                          </button>
+                        </div>
+                        <!-- второй столбец -->
+                        <div class="all-furniture__category-column">
+                          <button class="all-furniture__category-btn" data-category="office">
+                            <img src="/images/all-fur-office.svg" alt="Office" class="all-furniture__category-icon" />
+                            <span class="text-btn">Office</span>
+                          </button>
+
+                          <button class="all-furniture__category-btn" data-category="bed-room">
+                            <img
+                              src="/images/all-fur-bed-room.svg"
+                              alt="Bed Room"
+                              class="all-furniture__category-icon"
+                            />
+                            <span class="text-btn">Bed Room</span>
+                          </button>
+
+                          <button class="all-furniture__category-btn" data-category="hallway">
+                            <img src="/images/all-fur-hallway.svg" alt="Hallway" class="all-furniture__category-icon" />
+                            <span class="text-btn">Hallway</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="all-furniture__content text-reg" id="tab2">Currently empty :(</div>
+                <div class="all-furniture__content text-reg" id="tab3">Currently empty :(</div>
               </div>
             </div>
           </div>
