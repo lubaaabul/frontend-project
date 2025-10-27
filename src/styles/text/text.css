@@ -58,18 +58,6 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 }
 
 @media (--md-viewport) {
-  .text-reg {
-    font-size: var(--text-smaller);
-  }
-
-  .text-bold-title {
-    font-size: var(--text-regular);
-  }
-
-  .text-lg {
-    font-size: var(--text-large);
-  }
-
   .text-md {
     font-size: var(--text-medium);
   }
@@ -82,5 +70,9 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 
   .text-bold-title {
     font-size: var(--text-bigger);
+  }
+
+  .text-lg {
+    font-size: var(--text-large);
   }
 }
