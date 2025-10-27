@@ -24,7 +24,7 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 .text-md {
   font-family: var(--font-dm-sans);
   font-weight: 500;
-  font-size: var(--text-bigger);
+  font-size: var(--text-regular);
 }
 
 .text-reg {
@@ -42,7 +42,7 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 .text-btn {
   font-family: var(--font-dm-sans);
   font-weight: 500;
-  font-size: var(--text-regular);
+  font-size: var(--text-smaller);
 }
 
 .text-sm-medium {
@@ -59,11 +59,15 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 
 @media (--md-viewport) {
   .text-md {
-    font-size: var(--text-medium);
+    font-size: var(--text-bigger);
   }
 }
 
 @media (--lg-viewport) {
+  .text-md {
+    font-size: var(--text-medium);
+  }
+
   .text-reg {
     font-size: var(--text-regular);
   }
@@ -74,5 +78,9 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 
   .text-lg {
     font-size: var(--text-large);
+  }
+
+  .text-btn {
+    font-size: var(--text-regular);
   }
 }

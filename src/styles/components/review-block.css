@@ -100,11 +100,6 @@
     margin-bottom: 40px;
   }
 
-  .review__image-section {
-    position: relative;
-    flex: 0 0 auto;
-  }
-
   .review__image {
     width: 350px;
     height: 376px;
