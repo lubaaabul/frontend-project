@@ -1,0 +1,83 @@
+.review-block {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-left: 121px;
+}
+
+.review__image-section {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.review__image {
+  width: 459px;
+  height: 493px;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.review__decor--circle {
+  position: absolute;
+  width: 492px;
+  height: 492px;
+  background-color: var(--color-muted-teal);
+  border-radius: 50%;
+  z-index: 1;
+  top: 50%;
+  left: -105px;
+  transform: translateY(-50%);
+}
+
+.review__text-section {
+  flex: 1;
+}
+
+.review__title {
+  color: var(--color-black);
+  margin-bottom: 20px;
+}
+
+.review__description {
+  color: var(--color-black);
+  margin-bottom: 40px;
+}
+
+.review__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review__author-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review__author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.review__author-name {
+  color: var(--color-black);
+}
+
+.review__rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.review__rating-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.review__rating-value {
+  color: var(--color-black);
+}
