@@ -54,8 +54,8 @@
 }
 
 .all-furniture__image {
-  width: 552px;
-  height: 389px;
+  width: 264px;
+  height: 194px;
   object-fit: cover;
   position: relative;
   z-index: 2;
@@ -63,20 +63,20 @@
 
 .all-furniture__decor {
   position: absolute;
-  width: 190px;
-  height: 85px;
+  width: 96px;
+  height: 43px;
   background-color: var(--color-deep-teal);
   z-index: 1;
 }
 
 .all-furniture__decor--top-left {
-  top: -10px;
-  left: -13px;
+  top: -8px;
+  left: -10px;
 }
 
 .all-furniture__decor--bottom-right {
-  bottom: -13px;
-  right: -10px;
+  bottom: -10px;
+  right: -8px;
 }
 
 .all-furniture__categories-section {
