@@ -5,23 +5,24 @@
 }
 
 .bunner__content {
-  padding: 100px;
+  padding: 110px 90px;
 }
 
 .bunner__head {
   padding-bottom: 20px;
   font-size: 56px;
   font-family: Montserrat, sans-serif;
-  font-weight: 700;
-  line-height: 100%;
+  font-weight: 680;
+  line-height: 130%;
   color: var(--text-inverse);
 }
 
 .bunner__footer {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-right: 180px;
   font-size: 20px;
   font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 250;
   line-height: 150%;
   color: var(--text-inverse);
 }
@@ -32,7 +33,9 @@
 }
 
 .bunner__image {
-  height: 100%;
+  width: 95%;
+  height: 570px;
+  object-position: center;
   object-fit: cover;
 }
 

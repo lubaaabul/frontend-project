@@ -4,7 +4,7 @@
 }
 
 .about-us__content {
-  padding: 40px 0 40px 60px;
+  padding: 40px 60px;
 }
 
 .about-us__head {
@@ -18,6 +18,7 @@
 
 .about-us__text {
   padding-bottom: 40px;
+  padding-right: 60px;
   font-size: 20px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
@@ -36,7 +37,7 @@
   grid-area: overlay;
   z-index: 1;
   grid-row: 2;
-  width: 92%;
+  width: 100%;
   background-color: var(--background-interior);
 }
 
@@ -80,6 +81,7 @@
 }
 
 .about-us__quality-description {
+  padding-right: 110px;
   font-size: 18px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;

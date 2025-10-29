@@ -6,12 +6,12 @@
 
   /* Background group */
   --background-default: var(--color-white);
-  --background-secondary: var(--color-light-gray);
+  --background-secondary: var(--color-seawave);
   --background-primary: var(--color-dark-cyan);
 
   /* Text group */
   --text-primary: var(--color-muted-teal);
-  --text-secondary: var(--color-charcoal);
+  --text-secondary: var(--color-black);
   --text-inverse: var(--color-white);
 
   /* Primary accents */
