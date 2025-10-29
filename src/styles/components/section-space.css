@@ -1,5 +1,5 @@
 .section-space {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .section-space--lg {
@@ -8,6 +8,12 @@
 
 .section-space--bg {
   background-color: var(--background-secondary);
+}
+
+@media (--md-viewport) {
+  .section-space {
+    padding-bottom: 100px;
+  }
 }
 
 @media (--lg-viewport) {

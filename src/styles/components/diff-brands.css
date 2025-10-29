@@ -19,8 +19,7 @@
 }
 
 .diff-brands__item {
-  padding-left: 50px;
-  padding-right: 50px;
+  margin: auto;
 }
 
 .diff-brands__ico {
