@@ -14,11 +14,11 @@
   color: var(--color-gray-text);
 }
 
-.all-furniture__tab.active {
+.all-furniture__tab.all-furniture__tab--active {
   color: var(--color-deep-teal);
 }
 
-.all-furniture__tab.active::after {
+.all-furniture__tab.all-furniture__tab--active::after {
   content: '';
   position: relative;
   display: block;
@@ -34,7 +34,7 @@
   display: none;
 }
 
-.all-furniture__content.active {
+.all-furniture__content.all-furniture__content--active {
   display: block;
 }
 

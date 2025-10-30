@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
       const tabId = this.getAttribute('data-tab');
 
       // Убираем активный класс у всех вкладок и контента
-      tabs.forEach((t) => t.classList.remove('active'));
-      contents.forEach((c) => c.classList.remove('active'));
+      tabs.forEach((t) => t.classList.remove('all-furniture__tab--active'));
+      contents.forEach((c) => c.classList.remove('all-furniture__content--active'));
 
       // Добавляем активный класс текущей вкладке и соответствующему контенту
-      this.classList.add('active');
-      document.getElementById(tabId).classList.add('active');
+      this.classList.add('all-furniture__tab--active');
+      document.getElementById(tabId).classList.add('all-furniture__content--active');
     });
   });
 });

@@ -3,6 +3,7 @@
 
   --color-primary: var(--color-black);
   --color-secondary: var(--color-off-white);
+  --page-background: var(--color-deep-teal);
 
   /* Background group */
   --background-default: var(--color-dark-cyan);

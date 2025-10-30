@@ -39,11 +39,11 @@
   color: var(--text-secondary);
 }
 
-.popular-furniture__switch__button {
+.popular-furniture__switch-button {
   padding: 0 10px;
 }
 
-.popular-furniture__switch__left-button {
+.popular-furniture__switch-left-button {
   display: flex;
   align-items: center;
   width: 40px;
@@ -56,7 +56,7 @@
   transition: background-image 0.3s ease;
 }
 
-.popular-furniture__switch__right-button {
+.popular-furniture__switch-right-button {
   display: flex;
   align-items: center;
   width: 40px;
@@ -137,7 +137,7 @@
   align-self: start;
 }
 
-.product__round_button {
+.product__round-button {
   padding: 0 4px;
 }
 
@@ -171,7 +171,7 @@
   transition: background-image 0.3s ease;
 }
 
-.product__button__block {
+.product__button-block {
   grid-area: bottom-btn;
   align-self: end;
   padding-right: 7px;
