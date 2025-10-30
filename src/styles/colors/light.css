@@ -1,26 +1,42 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-off-white);
-  --color-secondary: var(--color-black);
-  --page-background: var(--color-off-white);
-
-  /* Background group */
-  --background-default: var(--color-white);
-  --background-secondary: var(--color-seawave);
-  --background-primary: var(--color-dark-cyan);
-
-  /* Text group */
-  --text-primary: var(--color-muted-teal);
-  --text-secondary: var(--color-black);
+  /* text group */
+  --text-primary: var(--color-black);
+  --text-secondary: var(--color-muted-teal);
+  --text-tertiary: var(--color-dark-cyan);
+  --text-quaternary: var(--color-light-gray);
   --text-inverse: var(--color-white);
 
-  /* Primary accents */
+  /* background group */
+  --background-page: var(--color-off-white);
+  --background-primary: var(--color-dark-cyan);
+  --background-secondary: var(--color-white);
+  --background-tertiary: var(--color-muted-teal);
+  --background-quaternary: var(--color-tealish-white);
+
+  /* footer group */
+  --footer-primary: var(--color-seawave);
+  --footer-accent: var(--color-light-seawave);
+
+  /* button group */
+  --button-primary: var(--color-muted-teal);
+  --button-secondary: var(--color-white);
+  --button-tertiary: var(--color-seawave);
+
+  /* hover group */
+  --button-primary-hover: var(--color-dark-cyan);
+  --button-secondary-hover: var(--color-gray-medium);
+  --button-tertiary-hover: var(--color-dark-seawave);
+  --button-text-hover: var(--color-white);
+
+  /* else */
+  --decor-primary: var(--color-light-mint);
+  --decor-secondary: var(--color-dark-cyan);
+  --icon-primary: var(--color-muted-teal);
+
+  /* Primary accents /
   --primary-default: var(--color-dark-cyan);
   --primary-hover: var(--color-gray);
-  --primary-light-hover: var(--color-gray-medium);
-
-  /* Остальное */
-  --secondary-hover: var(--color-gray-medium);
-  --background-interior: var(--color-light-mint);
+  --primary-light-hover: var(--color-gray-medium); */
 }

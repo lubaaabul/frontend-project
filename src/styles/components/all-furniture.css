@@ -11,11 +11,11 @@
 }
 
 .all-furniture__tab {
-  color: var(--color-gray-text);
+  color: var(--text-quaternary);
 }
 
 .all-furniture__tab.all-furniture__tab--active {
-  color: var(--color-deep-teal);
+  color: var(--text-tertiary);
 }
 
 .all-furniture__tab.all-furniture__tab--active::after {
@@ -24,7 +24,7 @@
   display: block;
   width: 35%;
   height: 3px;
-  background-color: var(--color-deep-teal);
+  background-color: var(--text-tertiary);
   margin: 6px auto 0;
   left: auto;
   transform: none;
@@ -65,7 +65,7 @@
   position: absolute;
   width: 96px;
   height: 43px;
-  background-color: var(--color-deep-teal);
+  background-color: var(--decor-secondary);
   z-index: 1;
 }
 
@@ -103,15 +103,15 @@
   width: 95px;
   height: 46px;
   background-color: transparent;
-  border: 1.5px solid var(--color-btn-line);
+  border: 1.5px solid var(--text-quaternary);
   transition: all 0.3s ease;
-  color: var(--color-gray-text);
+  color: var(--text-quaternary);
 }
 
 .all-furniture__category-btn:hover {
-  background-color: var(--color-deep-teal);
-  border-color: var(--color-deep-teal);
-  color: var(--color-white);
+  background-color: var(--button-primary-hover);
+  border-color: var(--button-primary-hover);
+  color: var(--button-text-hover);
 }
 
 .all-furniture__category-btn:hover .all-furniture__category-icon {
