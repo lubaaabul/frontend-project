@@ -7,6 +7,7 @@
   --color-off-white: #fcfbff;
   --color-tealish-white: #f4f6f6;
   --color-seawave: #305f64;
+  --color-cyan: #1a5151;
   --color-dark-cyan: #154444;
   --color-gray-muted: #505977;
   --color-gray-medium: #b6afaf;
@@ -18,4 +19,5 @@
   --color-darker-cyan: #013030;
   --color-dark-seawave: #1c4b50;
   --color-light-teal: #91bbbb;
+  --color-dark-gray: #282c2c;
 }

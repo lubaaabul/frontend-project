@@ -104,7 +104,6 @@
   height: 46px;
   background-color: transparent;
   border: 1.5px solid var(--text-quaternary);
-  transition: all 0.3s ease;
   color: var(--text-quaternary);
 }
 

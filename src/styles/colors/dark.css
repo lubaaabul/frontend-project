@@ -2,22 +2,22 @@
   color-scheme: dark;
 
   /* text group */
-  --text-primary: var(--color-white); /* done */
-  --text-secondary: var(--color-muted-teal);
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-cyan);
   --text-tertiary: var(--color-seawave);
-  --text-quaternary: var(--color-off-white); /* done */
-  --text-inverse: var(--color-black); /* done */
+  --text-quaternary: var(--color-off-white);
+  --text-inverse: var(--color-black);
   --text-contrast: var(--color-white);
 
   /* background group */
-  --background-page: var(--color-black); /* done */
-  --background-primary: var(--color-darker-cyan);
+  --background-page: var(--color-dark-gray);
+  --background-primary: var(--color-cyan);
   --background-secondary: var(--color-white);
   --background-tertiary: var(--color-muted-teal);
-  --background-quaternary: var(--color-darker-seawave);
+  --background-quaternary: var(--color-dark-seawave);
 
   /* footer group */
-  --footer-primary: var(--color-dark-seawave);
+  --footer-primary: var(--color-darker-seawave);
   --footer-accent: var(--color-light-seawave);
 
   /* button group */
@@ -26,18 +26,18 @@
   --button-tertiary: var(--color-seawave);
 
   /* hover group */
-  --button-primary-hover: var(--color-darker-cyan);
+  --button-primary-hover: var(--color-cyan);
   --button-secondary-hover: var(--color-gray-medium);
   --button-tertiary-hover: var(--color-dark-seawave);
-  --button-text-hover: var(--color-white); /* done */
+  --button-text-hover: var(--color-white);
 
   /* form group */
   --input-background: var(--color-white);
   --input-text: var(--color-black);
-  --input-placeholder: var(--color-gray-text);
+  --input-placeholder: var(--color-light-gray);
 
   /* else */
   --decor-primary: var(--color-light-mint);
-  --decor-secondary: var(--color-darker-cyan);
+  --decor-secondary: var(--color-cyan);
   --icon-primary: var(--color-white);
 }

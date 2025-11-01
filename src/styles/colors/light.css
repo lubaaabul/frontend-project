@@ -34,7 +34,7 @@
   /* form group */
   --input-background: var(--color-white);
   --input-text: var(--color-black);
-  --input-placeholder: var(--color-gray-text);
+  --input-placeholder: var(--color-light-gray);
 
   /* else */
   --decor-primary: var(--color-light-mint);

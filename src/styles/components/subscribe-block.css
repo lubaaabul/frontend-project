@@ -11,7 +11,7 @@
 }
 
 .subscribe__text {
-  color: var(--text-contrast);
+  color: var(--text-primary);
   margin-bottom: 40px;
 }
 
@@ -75,5 +75,5 @@
 }
 
 .subscribe__button:hover {
-  background-color: var(--color-muted-teal);
+  background-color: var(--button-tertiary-hover);
 }
