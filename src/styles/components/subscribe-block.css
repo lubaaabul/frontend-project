@@ -1,17 +1,17 @@
 .subscribe {
-  background-color: var(--color-tealish-white);
+  background-color: var(--background-quaternary);
   padding: 68px 16px 55px;
   display: flex;
   justify-content: center;
 }
 
 .subscribe__title {
-  color: var(--color-black);
+  color: var(--text-primary);
   margin-bottom: 20px;
 }
 
 .subscribe__text {
-  color: var(--color-black);
+  color: var(--text-contrast);
   margin-bottom: 40px;
 }
 
@@ -31,7 +31,7 @@
 .subscribe__input-wrapper {
   position: relative;
   display: flex;
-  background-color: var(--color-white);
+  background-color: var(--input-background);
   overflow: hidden;
   height: 67px;
 }
@@ -52,12 +52,12 @@
   background: transparent;
   border: none;
   padding: 0 46px;
-  color: var(--color-black);
+  color: var(--input-text);
   outline: none;
 }
 
 .subscribe__input::placeholder {
-  color: var(--color-gray-text);
+  color: var(--input-placeholder);
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -67,8 +67,8 @@
   height: 52px;
   margin: 8px 19px 8px 0;
   padding: 0 33px;
-  background-color: var(--color-seawave);
-  color: var(--color-white);
+  background-color: var(--button-tertiary);
+  color: var(--text-contrast);
   transition: background-color 0.3s ease;
   white-space: nowrap;
   flex-shrink: 0;

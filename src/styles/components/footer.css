@@ -21,13 +21,13 @@
 }
 
 .footer__description {
-  color: var(--color-white);
+  color: var(--text-contrast);
   margin-bottom: 24px;
 }
 
 .footer__social-title {
   margin-bottom: 10px;
-  color: var(--color-white);
+  color: var(--text-contrast);
 }
 
 .footer__social-links {
@@ -60,7 +60,7 @@
 
 .footer__nav-title {
   margin-bottom: 10px;
-  color: var(--color-white);
+  color: var(--text-contrast);
 }
 
 .footer__nav-list {
@@ -70,7 +70,7 @@
 }
 
 .footer__nav-link {
-  color: var(--color-white);
+  color: var(--text-contrast);
   transition: color 0.3s ease;
 }
 
@@ -80,11 +80,11 @@
 
 .footer__signup-title {
   margin-bottom: 8px;
-  color: var(--color-white);
+  color: var(--text-contrast);
 }
 
 .footer__signup-text {
-  color: var(--color-white);
+  color: var(--text-contrast);
   margin-bottom: 16px;
 }
 
@@ -97,14 +97,15 @@
   flex-grow: 1;
   height: 35px;
   border: none;
-  background-color: var(--color-white);
+  background-color: var(--input-background);
+  color: var(--input-text);
   outline: none;
   width: 100%;
   padding: 0 50px 0 16px;
 }
 
 .footer__input::placeholder {
-  color: var(--color-gray-text);
+  color: var(--input-placeholder);
 }
 
 .footer__button {
@@ -129,7 +130,7 @@
 }
 
 .footer__copyright {
-  color: var(--color-white);
+  color: var(--text-contrast);
   text-align: center;
 }
 

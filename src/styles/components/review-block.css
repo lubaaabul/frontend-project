@@ -22,7 +22,7 @@
   position: absolute;
   width: 236px;
   height: 236px;
-  background-color: var(--color-muted-teal);
+  background-color: var(--decor-secondary);
   border-radius: 50%;
   z-index: 1;
   top: 50%;
@@ -35,13 +35,13 @@
 }
 
 .review__title {
-  color: var(--color-black);
+  color: var(--text-primary);
   margin-bottom: 10px;
   font-size: 20px;
 }
 
 .review__description {
-  color: var(--color-black);
+  color: var(--text-primary);
   margin-bottom: 20px;
   font-size: 14px;
 }
@@ -66,7 +66,7 @@
 }
 
 .review__author-name {
-  color: var(--color-black);
+  color: var(--text-primary);
 }
 
 .review__rating {
@@ -81,7 +81,7 @@
 }
 
 .review__rating-value {
-  color: var(--color-black);
+  color: var(--text-primary);
 }
 
 @media (--md-viewport) {
