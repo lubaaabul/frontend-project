@@ -26,7 +26,7 @@
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   line-height: 52px;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .popular-furniture__text {
@@ -36,7 +36,7 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   line-height: 27px;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .popular-furniture__switch-button {
@@ -82,6 +82,7 @@
 }
 
 .product {
+  background-color: var(--background-secondary);
   display: flex;
   flex-direction: column;
   box-shadow: 0 8px 16px rgb(0 0 0 / 15%);
@@ -113,7 +114,7 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 550;
   line-height: 27px;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .product__price {
@@ -125,7 +126,7 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 550;
   line-height: 31px;
-  color: var(--text-primary);
+  color: var(--text-another);
 }
 
 .product__two-buttons {
@@ -181,8 +182,8 @@
 .product__button {
   height: 37px;
   width: 89px;
-  background-color: var(--background-secondary);
-  color: var(--text-inverse);
+  background-color: var(--button-primary);
+  color: var(--text-contrast);
   transition: background-color 0.3s ease;
   white-space: nowrap;
   flex-shrink: 0;
@@ -193,5 +194,5 @@
 }
 
 .product__button:hover {
-  background-color: var(--background-primary);
+  background-color: var(--button-primary-hover);
 }
