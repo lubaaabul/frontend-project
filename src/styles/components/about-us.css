@@ -57,7 +57,7 @@
 }
 
 .about-us__quality-ico {
-  filter: brightness(0) invert(1);
+  filter: var(--filter-for-icons);
   flex-shrink: 0;
   width: 50px;
   height: 50px;

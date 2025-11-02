@@ -42,6 +42,7 @@
   --decor-primary: var(--color-light-mint);
   --decor-secondary: var(--color-dark-cyan);
   --icon-primary: var(--color-muted-teal);
+  --filter-for-icons: none;
 
   /* Primary accents /
   --primary-default: var(--color-dark-cyan);

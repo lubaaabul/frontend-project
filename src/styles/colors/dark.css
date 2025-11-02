@@ -42,4 +42,5 @@
   --decor-primary: var(--color-cyan);
   --decor-secondary: var(--color-cyan);
   --icon-primary: var(--color-white);
+  --filter-for-icons: brightness(0) invert(1);
 }
