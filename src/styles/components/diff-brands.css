@@ -1,5 +1,5 @@
 .diff-brands {
-  color: var(--text-secondary);
+  color: var(--text-another);
 }
 
 .diff-brands__title {
@@ -11,6 +11,8 @@
 }
 
 .diff-brands__list {
+  background-color: var(--background-contrast);
+  border-radius: 40px;
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -21,7 +23,8 @@
 }
 
 .diff-brands__ico {
-  margin-bottom: 16px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .diff-brands__head {
@@ -43,8 +46,6 @@
 
 @media (--lg-viewport) {
   .diff-brands__list {
-    margin-top: 60px;
-    gap: 20px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

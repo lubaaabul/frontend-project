@@ -8,20 +8,22 @@
   --text-quaternary: var(--color-off-white);
   --text-inverse: var(--color-black);
   --text-contrast: var(--color-white);
+  --text-another: var(--color-light-mint);
 
   /* background group */
   --background-page: var(--color-dark-gray);
   --background-primary: var(--color-cyan);
-  --background-secondary: var(--color-white);
+  --background-secondary: var(--color-almost-dark-gray);
   --background-tertiary: var(--color-muted-teal);
   --background-quaternary: var(--color-dark-seawave);
+  --background-contrast: var(--color-light-mint);
 
   /* footer group */
   --footer-primary: var(--color-darker-seawave);
   --footer-accent: var(--color-light-seawave);
 
   /* button group */
-  --button-primary: var(--color-muted-teal);
+  --button-primary: var(--color-seawave);
   --button-secondary: var(--color-white);
   --button-tertiary: var(--color-seawave);
 
@@ -37,7 +39,7 @@
   --input-placeholder: var(--color-light-gray);
 
   /* else */
-  --decor-primary: var(--color-light-mint);
+  --decor-primary: var(--color-cyan);
   --decor-secondary: var(--color-cyan);
   --icon-primary: var(--color-white);
 }

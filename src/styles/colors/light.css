@@ -8,6 +8,7 @@
   --text-quaternary: var(--color-light-gray);
   --text-inverse: var(--color-white);
   --text-contrast: var(--color-white);
+  --text-another: var(--color-muted-teal);
 
   /* background group */
   --background-page: var(--color-off-white);
@@ -15,6 +16,7 @@
   --background-secondary: var(--color-white);
   --background-tertiary: var(--color-muted-teal);
   --background-quaternary: var(--color-tealish-white);
+  --background-contrast: var(--color-white);
 
   /* footer group */
   --footer-primary: var(--color-seawave);

@@ -14,7 +14,7 @@
   font-family: Montserrat, sans-serif;
   font-weight: 680;
   line-height: 130%;
-  color: var(--text-inverse);
+  color: var(--text-contrast);
 }
 
 .bunner__footer {
@@ -24,7 +24,27 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 250;
   line-height: 150%;
-  color: var(--text-inverse);
+  color: var(--text-contrast);
+}
+
+.bunner__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+  background-color: var(--button-secondary);
+  color: var(--text-tertiary);
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+
+  &:hover {
+    background-color: var(--button-secondary-hover);
+  }
 }
 
 .bunner__media {
