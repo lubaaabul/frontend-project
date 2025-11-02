@@ -26,7 +26,7 @@
   --button-tertiary: var(--color-seawave);
 
   /* hover group */
-  --button-primary-hover: var(--color-dark-cyan);
+  --button-primary-hover: var(--color-darker-cyan);
   --button-secondary-hover: var(--color-gray-medium);
   --button-tertiary-hover: var(--color-dark-seawave);
   --button-text-hover: var(--color-white);

@@ -6,48 +6,23 @@
   transition:
     color 150ms linear,
     background-color 150ms linear;
-  background-color: var(--background-secondary);
-  color: var(--text-primary);
+  background-color: var(--button-secondary);
+  color: var(--text-tertiary);
   font-size: 20px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
 
   &:hover {
-    background-color: var(--secondary-hover);
+    background-color: var(--button-secondary-hover);
   }
-}
-
-.button:focus-visible {
-  outline: 2px solid var(--text-secondary);
-  outline-offset: 2px;
 }
 
 .button--on-card {
-  background-color: var(--background-default);
+  background-color: var(--button-secondary);
   line-height: 150%;
-  color: var(--text-primary);
+  color: var(--text-tertiary);
 
   &:hover {
-    background-color: var(--primary-light-hover);
-  }
-}
-
-.button--dark {
-  background-color: var(--primary-default);
-  line-height: 25px;
-  color: var(--text-primary);
-
-  &:hover {
-    background-color: var(--primary-hover);
-  }
-}
-
-.button--light {
-  background-color: var(--background-default);
-  line-height: 150%;
-  color: var(--text-primary);
-
-  &:hover {
-    background-color: var(--text-secondary);
+    background-color: var(--button-secondary-hover);
   }
 }
