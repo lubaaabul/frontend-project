@@ -1,16 +1,17 @@
 .bunner {
   display: flex;
   background-color: var(--background-primary);
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .bunner__content {
-  padding: 110px 90px;
+  width: 65%;
+  padding: 50px 0 40px 40px;
 }
 
 .bunner__head {
-  padding-bottom: 20px;
-  font-size: 56px;
+  padding-bottom: 10px;
+  font-size: 28px;
   font-family: Montserrat, sans-serif;
   font-weight: 680;
   line-height: 130%;
@@ -18,9 +19,9 @@
 }
 
 .bunner__footer {
-  padding-bottom: 30px;
-  padding-right: 180px;
-  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 60px;
+  font-size: 13px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 250;
   line-height: 150%;
@@ -31,13 +32,13 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 16px 32px;
+  padding: 9px 16px;
   transition:
     color 150ms linear,
     background-color 150ms linear;
   background-color: var(--button-secondary);
   color: var(--text-tertiary);
-  font-size: 20px;
+  font-size: 13px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   line-height: 150%;
@@ -48,29 +49,76 @@
 }
 
 .bunner__media {
-  width: 100%;
+  width: 35%;
+  height: auto;
   flex-shrink: 0;
 }
 
 .bunner__image {
-  width: 95%;
-  height: 570px;
-  object-position: center;
+  width: 100%;
+  height: stretch;
+  object-position: bottom;
   object-fit: cover;
 }
 
-@media (--lg-viewport) {
-  .bunner {
-    flex-direction: row;
-  }
-
+@media (--md-viewport) {
   .bunner__content {
-    width: 65%;
+    padding: 70px 0 60px 50px;
   }
 
-  .bunner__media {
-    /* width: 520px; */
-    width: 35%;
-    flex-shrink: 0;
+  .bunner__head {
+    padding-bottom: 15px;
+    font-size: 38px;
+  }
+
+  .bunner__footer {
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .bunner__button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (--lg-viewport) {
+  .bunner__content {
+    padding: 70px 80px;
+  }
+
+  .bunner__head {
+    font-size: 50px;
+  }
+
+  .bunner__footer {
+    padding-bottom: 30px;
+    padding-right: 50px;
+    font-size: 19px;
+  }
+
+  .bunner__button {
+    padding: 16px 32px;
+    font-size: 19px;
+  }
+}
+
+@media (--xl-viewport) {
+  .bunner__content {
+    padding: 110px 90px;
+  }
+
+  .bunner__head {
+    padding-bottom: 20px;
+    font-size: 56px;
+  }
+
+  .bunner__footer {
+    padding-right: 180px;
+    font-size: 20px;
+  }
+
+  .bunner__button {
+    font-size: 20px;
   }
 }

@@ -6,23 +6,24 @@
 .popular-furniture__header {
   display: flex;
   flex-direction: row;
+  padding-bottom: 10px;
 }
 
 .popular-furniture__content {
-  width: 68%;
+  width: 90%;
 }
 
 .popular-furniture__switch {
-  width: 32%;
+  width: 10%;
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-direction: row;
-  padding-left: 299px;
-  padding-top: 70px;
 }
 
 .popular-furniture__head {
-  padding-bottom: 20px;
-  font-size: 32px;
+  padding-bottom: 5px;
+  font-size: 22px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   line-height: 52px;
@@ -30,9 +31,8 @@
 }
 
 .popular-furniture__text {
-  padding-right: 50px;
-  padding-bottom: 30px;
-  font-size: 20px;
+  padding-right: 11%;
+  font-size: 13px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   line-height: 27px;
@@ -40,14 +40,14 @@
 }
 
 .popular-furniture__switch-button {
-  padding: 0 10px;
+  padding: 0 10px 0 5px;
 }
 
 .popular-furniture__switch-left-button {
   display: flex;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
   justify-content: center;
   background-size: cover;
   background-position: center;
@@ -59,8 +59,8 @@
 .popular-furniture__switch-right-button {
   display: flex;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
   justify-content: center;
   background-size: cover;
   background-position: center;
@@ -70,10 +70,9 @@
 }
 
 .popular-furniture__grid {
-  margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 15px;
 }
 
 .popular-furniture__item {
@@ -90,7 +89,7 @@
 
 .product__img {
   width: 100%;
-  height: 270px;
+  height: 200px;
   object-fit: cover;
   object-position: center;
 }
@@ -101,16 +100,16 @@
     'title top-btn' auto
     'price bottom-btn' auto / 1fr auto;
   gap: 10px;
-  padding: 20px;
-  min-height: 150px;
+  padding: 15px;
+  min-height: 100px;
 }
 
 .product__title {
   grid-area: title;
   align-self: start;
-  padding-left: 7px;
+  padding-left: 10px;
   padding-top: 13px;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 550;
   line-height: 27px;
@@ -120,9 +119,9 @@
 .product__price {
   grid-area: price;
   align-self: end;
-  padding-left: 7px;
-  padding-bottom: 15px;
-  font-size: 26px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 22px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 550;
   line-height: 31px;
@@ -195,4 +194,143 @@
 
 .product__button:hover {
   background-color: var(--button-primary-hover);
+}
+
+@media (--md-viewport) {
+  .popular-furniture__header {
+    padding-bottom: 20px;
+  }
+
+  .popular-furniture__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .product__info {
+    padding: 10px;
+    min-height: 130px;
+  }
+
+  .product__title {
+    font-size: 19px;
+  }
+
+  .product__price {
+    font-size: 24px;
+  }
+
+  .product__two-buttons {
+    padding-top: 13px;
+  }
+
+  .product__button-block {
+    padding: 0 0 10px 10px;
+  }
+
+  .product__button {
+    height: 33px;
+    width: 75px;
+    font-size: 12px;
+  }
+}
+
+@media (--lg-viewport) {
+  .popular-furniture__header {
+    padding-bottom: 30px;
+  }
+
+  .popular-furniture__content {
+    width: 68%;
+  }
+
+  .popular-furniture__switch {
+    width: 32%;
+  }
+
+  .popular-furniture__head {
+    padding-bottom: 20px;
+    font-size: 32px;
+  }
+
+  .popular-furniture__text {
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .popular-furniture__switch-button {
+    padding: 0 10px;
+  }
+
+  .popular-furniture__switch-left-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .popular-furniture__switch-right-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .popular-furniture__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+  }
+
+  .product__img {
+    height: 230px;
+  }
+
+  .product__info {
+    padding: 15px;
+    min-height: 140px;
+  }
+
+  .product__title {
+    font-size: 18px;
+  }
+
+  .product__two-buttons {
+    padding-left: 23px;
+  }
+
+  .product__button {
+    height: 37px;
+    width: 89px;
+    font-size: 14px;
+  }
+}
+
+@media (--xl-viewport) {
+  .popular-furniture__grid {
+    gap: 30px;
+  }
+
+  .product__img {
+    height: 270px;
+  }
+
+  .product__info {
+    padding: 20px;
+    min-height: 150px;
+  }
+
+  .product__title {
+    padding-left: 7px;
+    font-size: 22px;
+  }
+
+  .product__price {
+    padding-left: 7px;
+    padding-bottom: 15px;
+    font-size: 26px;
+  }
+
+  .product__two-buttons {
+    padding-top: 11px;
+    padding-left: 15px;
+  }
+
+  .product__button-block {
+    padding-right: 7px;
+  }
 }
