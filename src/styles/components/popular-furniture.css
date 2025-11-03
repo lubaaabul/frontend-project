@@ -22,32 +22,31 @@
 }
 
 .popular-furniture__head {
-  padding-bottom: 5px;
-  font-size: 22px;
+  font-size: 18px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 30px;
   color: var(--text-primary);
 }
 
 .popular-furniture__text {
   padding-right: 11%;
-  font-size: 13px;
+  font-size: 10px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 19px;
   color: var(--text-primary);
 }
 
 .popular-furniture__switch-button {
-  padding: 0 10px 0 5px;
+  padding: 0 5px;
 }
 
 .popular-furniture__switch-left-button {
   display: flex;
   align-items: center;
-  width: 33px;
-  height: 33px;
+  width: 26px;
+  height: 26px;
   justify-content: center;
   background-size: cover;
   background-position: center;
@@ -59,8 +58,8 @@
 .popular-furniture__switch-right-button {
   display: flex;
   align-items: center;
-  width: 33px;
-  height: 33px;
+  width: 26px;
+  height: 26px;
   justify-content: center;
   background-size: cover;
   background-position: center;
@@ -72,12 +71,42 @@
 .popular-furniture__grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 15px;
+  gap: 10px;
 }
 
 .popular-furniture__item {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+@media (--sm-viewport) {
+  .popular-furniture__head {
+    padding-bottom: 5px;
+    font-size: 22px;
+  }
+
+  .popular-furniture__text {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .popular-furniture__switch-button {
+    padding-right: 10px;
+  }
+
+  .popular-furniture__switch-left-button {
+    width: 33px;
+    height: 33px;
+  }
+
+  .popular-furniture__switch-right-button {
+    width: 33px;
+    height: 33px;
+  }
+
+  .popular-furniture__grid {
+    gap: 15px;
+  }
 }
 
 @media (--md-viewport) {

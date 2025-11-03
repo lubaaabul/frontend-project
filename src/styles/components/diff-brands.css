@@ -5,7 +5,7 @@
 .diff-brands__title {
   text-align: center;
   line-height: 100%;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
 }
@@ -28,15 +28,10 @@
   margin-bottom: 10px;
 }
 
-.diff-brands__head {
-  font-size: 20px;
-  line-height: 1.4;
-  margin-bottom: 8px;
-}
-
-.diff-brands__descr {
-  font-size: 16px;
-  line-height: 1.5;
+@media (--sm-viewport) {
+  .diff-brands__title {
+    font-size: 22px;
+  }
 }
 
 @media (--md-viewport) {
