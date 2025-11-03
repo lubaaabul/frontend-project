@@ -12,25 +12,27 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
   --text-bigger: 20px;
   --text-regular: 16px;
   --text-smaller: 14px;
+  --text-even-smaller: 12px;
+  --text-smallest: 10px;
 }
 
 .text-lg {
   font-family: var(--font-montserrat);
   font-weight: 700;
-  font-size: var(--text-medium);
+  font-size: var(--text-bigger);
   line-height: 1.4;
 }
 
 .text-md {
   font-family: var(--font-dm-sans);
   font-weight: 500;
-  font-size: var(--text-regular);
+  font-size: var(--text-smaller);
 }
 
 .text-reg {
   font-family: var(--font-dm-sans);
   font-weight: 400;
-  font-size: var(--text-smaller);
+  font-size: var(--text-smallest);
 }
 
 .text-reg-but-bigger {
@@ -42,7 +44,7 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 .text-btn {
   font-family: var(--font-dm-sans);
   font-weight: 500;
-  font-size: var(--text-smaller);
+  font-size: var(--text-even-smaller);
 }
 
 .text-sm-medium {
@@ -54,7 +56,29 @@ font-family: 'Montserrat', sans-serif; + font-weight: 700; = Bold */
 .text-bold-title {
   font-family: var(--font-montserrat);
   font-weight: 700;
-  font-size: var(--text-regular);
+  font-size: var(--text-smaller);
+}
+
+@media (--sm-viewport) {
+  .text-reg {
+    font-size: var(--text-smaller);
+  }
+
+  .text-lg {
+    font-size: var(--text-medium);
+  }
+
+  .text-md {
+    font-size: var(--text-regular);
+  }
+
+  .text-btn {
+    font-size: var(--text-smaller);
+  }
+
+  .text-bold-title {
+    font-size: var(--text-regular);
+  }
 }
 
 @media (--md-viewport) {

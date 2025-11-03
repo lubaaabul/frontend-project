@@ -1,6 +1,6 @@
 .subscribe {
   background-color: var(--background-quaternary);
-  padding: 68px 16px 55px;
+  padding: 30px 16px;
   display: flex;
   justify-content: center;
 }
@@ -12,7 +12,8 @@
 
 .subscribe__text {
   color: var(--text-primary);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  font-size: 12px;
 }
 
 .subscribe__wrapper {
@@ -20,12 +21,12 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  max-width: 605px;
+  max-width: 100%;
 }
 
 .subscribe__form {
   width: 100%;
-  max-width: 472px;
+  max-width: 320px;
 }
 
 .subscribe__input-wrapper {
@@ -33,16 +34,16 @@
   display: flex;
   background-color: var(--input-background);
   overflow: hidden;
-  height: 67px;
+  height: 52px;
 }
 
 .subscribe__input-icon {
   position: absolute;
-  left: 18px;
+  left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   z-index: 1;
 }
 
@@ -51,7 +52,7 @@
   height: 100%;
   background: transparent;
   border: none;
-  padding: 0 46px;
+  padding: 0 40px 0 35px;
   color: var(--input-text);
   outline: none;
 }
@@ -59,14 +60,14 @@
 .subscribe__input::placeholder {
   color: var(--input-placeholder);
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .subscribe__button {
-  height: 52px;
-  margin: 8px 19px 8px 0;
-  padding: 0 33px;
+  height: 40px;
+  margin: 6px 6px 6px 0;
+  padding: 0 20px;
   background-color: var(--button-tertiary);
   color: var(--text-contrast);
   transition: background-color 0.3s ease;
@@ -76,4 +77,56 @@
 
 .subscribe__button:hover {
   background-color: var(--button-tertiary-hover);
+}
+
+@media (--sm-viewport) {
+  .subscribe {
+    padding: 68px 16px 55px;
+  }
+
+  .subscribe__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .subscribe__text {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .subscribe__wrapper {
+    max-width: 605px;
+  }
+
+  .subscribe__form {
+    max-width: 472px;
+  }
+
+  .subscribe__input-wrapper {
+    height: 67px;
+    border-radius: 0;
+  }
+
+  .subscribe__input-icon {
+    left: 18px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .subscribe__input {
+    padding: 0 46px;
+    font-size: 16px;
+  }
+
+  .subscribe__input::placeholder {
+    font-size: 16px;
+  }
+
+  .subscribe__button {
+    height: 52px;
+    margin: 8px 19px 8px 0;
+    padding: 0 33px;
+    font-size: 16px;
+    border-radius: 0;
+  }
 }

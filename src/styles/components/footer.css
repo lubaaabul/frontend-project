@@ -1,20 +1,16 @@
 .footer {
   background-color: var(--footer-primary);
-  padding: 60px 20px 20px;
+  padding: 30px 16px 20px;
 }
 
 .footer__wrapper {
   display: flex;
-  justify-content: space-between;
-  gap: 15px;
-}
-
-.footer__brand {
-  flex: 0 0 150px;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .footer__logo {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   filter: brightness(0) invert(1);
   width: 105px;
   height: 20px;
@@ -55,7 +51,7 @@
 }
 
 .footer__nav {
-  flex: 0 0 90px;
+  flex: 0 0 100px;
 }
 
 .footer__nav-title {
@@ -74,10 +70,6 @@
   transition: color 0.3s ease;
 }
 
-.footer__signup {
-  flex: 0 0 120px;
-}
-
 .footer__signup-title {
   margin-bottom: 8px;
   color: var(--text-contrast);
@@ -91,6 +83,7 @@
 .footer__form {
   position: relative;
   width: 100%;
+  margin: 0 auto;
 }
 
 .footer__input {
@@ -101,7 +94,7 @@
   color: var(--input-text);
   outline: none;
   width: 100%;
-  padding: 0 50px 0 16px;
+  padding: 0 40px 0 16px;
 }
 
 .footer__input::placeholder {
@@ -120,7 +113,7 @@
 }
 
 .footer__bottom {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .footer__divider {
@@ -132,6 +125,93 @@
 .footer__copyright {
   color: var(--text-contrast);
   text-align: center;
+}
+
+@media (--sm-viewport) {
+  .footer {
+    padding: 60px 20px 20px;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .footer__logo {
+    margin-bottom: 10px;
+    width: 105px;
+    height: 20px;
+  }
+
+  .footer__brand {
+    flex: 0 0 150px;
+    text-align: left;
+  }
+
+  .footer__description {
+    margin-bottom: 24px;
+  }
+
+  .footer__social-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer__social-links {
+    justify-content: flex-start;
+  }
+
+  .footer__nav-common {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .footer__nav {
+    flex: 0 0 90px;
+    text-align: left;
+  }
+
+  .footer__nav-title {
+    margin-bottom: 10px;
+  }
+
+  .footer__nav-list {
+    gap: 5px;
+  }
+
+  .footer__signup {
+    flex: 0 0 120px;
+    text-align: left;
+  }
+
+  .footer__signup-title {
+    margin-bottom: 8px;
+  }
+
+  .footer__signup-text {
+    margin-bottom: 16px;
+  }
+
+  .footer__form {
+    max-width: none;
+    margin: 0;
+  }
+
+  .footer__input {
+    height: 35px;
+    padding: 0 50px 0 16px;
+  }
+
+  .footer__input::placeholder {
+    font-size: 16px;
+  }
+
+  .footer__bottom {
+    margin-top: 40px;
+  }
 }
 
 @media (--md-viewport) {

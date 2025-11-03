@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-left: 65px;
+  padding-left: -65px;
+  flex-direction: column;
 }
 
 .review__image-section {
@@ -26,12 +27,13 @@
   border-radius: 50%;
   z-index: 1;
   top: 50%;
-  left: -50px;
+  left: -40px;
   transform: translateY(-50%);
 }
 
 .review__text-section {
   flex: 1;
+  text-align: center;
 }
 
 .review__title {
@@ -50,6 +52,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: center;
 }
 
 .review__author-photo {
@@ -84,6 +87,74 @@
   color: var(--text-primary);
 }
 
+@media (--sm-viewport) {
+  .review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 65px;
+  }
+
+  .review__text-section {
+    text-align: left;
+  }
+
+  .review__image {
+    width: 220px;
+    height: 236px;
+  }
+
+  .review__decor--circle {
+    width: 236px;
+    height: 236px;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+  }
+
+  .review__title {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .review__description {
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .review__author {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .review__author-photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review__author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .review__rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .review__rating-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
 @media (--md-viewport) {
   .review-block {
     gap: 45px;
@@ -109,7 +180,7 @@
     width: 376px;
     height: 376px;
     top: 50%;
-    left: -80px;
+    left: -50px;
   }
 }
 
@@ -127,7 +198,7 @@
   .review__decor--circle {
     width: 492px;
     height: 492px;
-    left: -105px;
+    left: -50px;
   }
 
   .review__title {
@@ -142,5 +213,10 @@
 @media (--xl-viewport) {
   .review-block {
     gap: 100px;
+  }
+
+  .review__decor--circle {
+    top: 50%;
+    left: -90px;
   }
 }
